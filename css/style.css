@@ -17,12 +17,29 @@
     margin: auto;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* header */
 
 header img {
     border-right: 2px solid #e5e5e5;
     width: 15%;
     padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+header li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+header li a, header li a:visited {
+    text-decoration: none;
+    color: #888888;
 }
 
 .top-section {
