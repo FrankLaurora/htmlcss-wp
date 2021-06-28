@@ -101,6 +101,10 @@ header li a, header li a:visited {
 
 /* floating sections */
 
+.row {
+    margin-top: 20px;
+}
+
 .side-column{
     float: left;
     width: 25%;
@@ -146,9 +150,13 @@ header li a, header li a:visited {
     color: #888888;
 }
 
-
+/* footer */
 
 footer {
-    height: 100px;
-    background-color: #8801fe;
+    text-align: center;
+}
+
+footer span{
+    color: #ff0000;
+    font-size: 2em;
 }
