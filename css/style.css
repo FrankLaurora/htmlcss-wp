@@ -13,14 +13,16 @@
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
-header {
-    height: 150px;
-    background-color: #e579e6;
-    margin: 10px auto;
+/* header */
+
+header img {
+    border-right: 2px solid #e5e5e5;
+    width: 15%;
+    padding-right: 10px;
 }
 
 .top-section {
