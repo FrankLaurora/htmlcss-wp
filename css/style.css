@@ -21,7 +21,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.overlay {
+.overlay::before {
+    content: '';
+    display: block;
     background-color: #00000020;
     position: absolute;
     top: 0;
